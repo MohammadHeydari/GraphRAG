@@ -180,5 +180,7 @@ python add_embeddings.py
 python graph_rag_retrieval.py
 ```
 
+That's it. 
+
 
 
