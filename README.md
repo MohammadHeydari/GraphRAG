@@ -86,7 +86,6 @@ Graph Relationships:
 (Article)-[:IN_SUBTOPIC]->(Subtopic)
 ```
 
-
 ---
 
 ## 2. Embedding Generation
@@ -96,7 +95,6 @@ Each article is embedded using:
 ```
 intfloat/multilingual-e5-base
 ```
-
 
 Embeddings are stored directly in Neo4j nodes.
 
@@ -153,6 +151,7 @@ Create a ```.env``` file in the root dir:
 NEO4J_URI=bolt://localhost:7687
 NEO4J_USERNAME=neo4j
 NEO4J_PASSWORD=your_password
+
 ```
 
 Installation
