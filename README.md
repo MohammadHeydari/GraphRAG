@@ -62,6 +62,12 @@ GraphRAG/
 
 ---
 
+# Graph Model
+
+![Graph Model](images/graph_model.png)
+
+---
+
 # How It Works
 
 ## 1. Graph Construction
