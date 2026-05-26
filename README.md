@@ -78,7 +78,7 @@ Nodes:
 - Topic
 - Subtopic
 
-Relationships:
+Graph Relationships:
 
 ```
 (Researcher)-[:PUBLISHED]->(Article)
