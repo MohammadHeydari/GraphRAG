@@ -7,6 +7,8 @@ This project combines:
 - Graph-based relationships (Neo4j)
 - Hybrid retrieval and scoring
 
+![Graph in Neo4j](images/img.png)
+
 ---
 
 # Features
