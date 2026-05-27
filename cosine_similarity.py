@@ -6,7 +6,7 @@ model = SentenceTransformer("intfloat/multilingual-e5-base")
 
 driver = GraphDatabase.driver(
     "bolt://localhost:7687",
-    auth=("neo4j", "19931440")
+    auth=("your-neo4j-username", "your-neo4j-password")
 )
 
 def cosine(a, b):
