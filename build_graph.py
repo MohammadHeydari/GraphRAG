@@ -6,7 +6,7 @@ df = pd.read_csv("dataset/data.csv", sep=";")
 
 driver = GraphDatabase.driver(
     "bolt://localhost:7687",
-    auth=("neo4j", "19931440")
+    auth=("your-neo4j-username", "your-neo4j-password")
 )
 
 def insert_row(tx, row):
